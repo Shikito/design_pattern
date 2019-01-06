@@ -175,7 +175,8 @@ def _main():
     print(house)
     print(japanese_house)
     print(western_house)
-
+    for item in globals():
+        print(item)
 
 if __name__ == "__main__":
     _main()
